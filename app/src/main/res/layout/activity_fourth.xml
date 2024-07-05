@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".ForthActivities">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/red"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/red"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/red"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/red"
+        android:textSize="30sp" />
+</LinearLayout>
